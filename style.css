@@ -53,7 +53,7 @@ body {
     flex-wrap: wrap;
     margin-bottom: 5rem;
 }
-.card img{
+.card-div .card img{
     height:65px;
     width:65px;
     margin: 0px auto;
@@ -87,7 +87,14 @@ body {
 .online-course{
     margin-top: 12rem;
 }
-
+.online-course .btn{
+    margin-left: -4px;
+}
+.online-course .card-text {
+    text-align: left;
+    font-size: 1rem;
+    color: #413960;
+}
 /*online course section end*/
 
 
@@ -95,7 +102,6 @@ body {
 /*testimonia section start*/
 .testimonial{
     margin-top:10rem;
-
 }
 .testimonial-heading h1{
     font-weight: 600;
@@ -106,18 +112,35 @@ body {
     margin: 5rem auto;
 }
 .media img{
-    height: 90px;
-    width: 90px;
+    height: 90px ;
+    width: 90px ;
 }
 .media-body p{
     font-size: 1rem;
     font-weight: 500;
+    padding-left: 20px;
 }
 
 /*testimonia section end*/
 
 
 
+/*footer start*/
+.footer{
+    background-color:#282531;
+    padding: 4rem 0px 1rem 0px;
+}
+.footer ul li{
+    list-style: none;
+    color: white;
+    padding-bottom: 10px;
+}
+.last-footer{
+    margin: 0px auto;
+    padding-top: 5rem;
+    color: #c0c0c0;
+    font-weight: 500;
+}
 
 
 
