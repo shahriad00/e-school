@@ -45,3 +45,87 @@ body {
 }
 
 /*learning section end*/
+
+/*second section start*/
+.card-div{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+.card img{
+    height:65px;
+    width:65px;
+    margin: 0px auto;
+
+}
+.card{
+    margin-top: 60px;
+    padding: 25px 15px;
+    background-color: #F0FFF0;
+    border: none;
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 0px 0px 30px 0px #888888;
+    background-color: white;
+}
+.card-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #413960;
+}
+.card-text{
+    text-align: center;
+    font-size: 1rem;
+    color: #413960;
+}
+/*second section end*/
+
+
+/*online course section start*/
+.online-course{
+    margin-top: 12rem;
+}
+
+/*online course section end*/
+
+
+
+/*testimonia section start*/
+.testimonial{
+    margin-top:10rem;
+
+}
+.testimonial-heading h1{
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+.media{
+    width: 60%;
+    margin: 5rem auto;
+}
+.media img{
+    height: 90px;
+    width: 90px;
+}
+.media-body p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/*testimonia section end*/
+
+
+
+
+
+
+
+
+@media (max-width:411px){
+    .card-div {
+        
+        margin-left: 4rem;
+    }
+}
