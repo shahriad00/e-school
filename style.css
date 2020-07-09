@@ -47,6 +47,9 @@ body {
 /*learning section end*/
 
 /*second section start*/
+.second-section{
+    margin-top: 3rem;
+}
 .card-div{
     display:flex;
     justify-content: space-between;
@@ -85,7 +88,7 @@ body {
 
 /*online course section start*/
 .online-course{
-    margin-top: 12rem;
+    margin-top: 8rem;
 }
 .online-course .btn{
     margin-left: -4px;
@@ -101,7 +104,8 @@ body {
 
 /*testimonia section start*/
 .testimonial{
-    margin:7rem 0px;
+    margin: 0rem auto;
+    padding: 6rem 0;
 }
 .testimonial-heading h1{
     font-weight: 600;
@@ -135,11 +139,16 @@ body {
     color: white;
     padding-bottom: 10px;
 }
+.footer ul li:hover{   
+    color: rgb(103, 255, 171);
+    cursor: pointer;
+}
 .last-footer{
     margin: 0px auto;
     padding-top: 5rem;
     color: #c0c0c0;
     font-weight: 500;
+    font-size: 0.9rem;
 }
 
 
