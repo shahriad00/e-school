@@ -116,7 +116,20 @@ body {
 }
 /*online course section end*/
 
-
+/*form-section start*/
+.form-section{
+    margin: 6rem 0 2rem 0;
+}
+.form-section .container{
+    width:40%;
+    background-color: #F0FFF0;
+    padding-bottom: 3rem;
+    border-radius: 5%;
+}
+.form-section .join-us-heading{
+    padding:2rem 0 4rem 0;
+}
+/*form-section end*/
 
 /*testimonia section start*/
 .testimonial{
@@ -176,15 +189,14 @@ body {
         
         margin-left: 4rem;
     }
-    .footer ul li{
-        
-        text-align: center;
-    }
     .learning-section-img img{
         padding-top: 3rem;
     }
     #book{
         padding-right:2.1rem;
         padding-left:2.1rem;
+    }
+    .form-section .container{
+        width:85%;
     }
 }
